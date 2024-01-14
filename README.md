@@ -1,6 +1,5 @@
 # Git-practice Test By Ani Emmanuel
 <h2>Explain Version Control</h2>
-<h2>What is Version Control?</h2>
 <p>Version control - also known as source control or revision control - is an important software development practice for tracking and managing changes made to code and other files. It is closely related to source code management..</p>
 
 <h2>The basics of version control</h2>
