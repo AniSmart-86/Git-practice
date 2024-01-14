@@ -57,3 +57,9 @@ Understand and spark team collaboration to foster greater release build and rele
 </li>
 
 <h2>Explain difference between git and github</h2>
+
+<p><bold>Git:</bold>t is a free, high-quality distributed version control system suitable for tracking modifications in source code in software development. It was originally created as an open-source system for coordinating tasks among programmers, but today it is widely used to track changes in any set of files. The key objectives of Git are as follows:
+
+Speed and efficiency
+Data integrity
+Support for distributed and non-linear workflows</p>
