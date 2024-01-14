@@ -1,9 +1,9 @@
 # Git-practice Test By Ani Emmanuel
 <h2>Explain Version Control</h2>
-<h4>What is Version Control?</h4>
+<h2>What is Version Control?</h2>
 <p>Version control - also known as source control or revision control - is an important software development practice for tracking and managing changes made to code and other files. It is closely related to source code management..</p>
 
-<h4>The basics of version control</h4>
+<h2>The basics of version control</h2>
 <p>With version control, every change made to the code base is tracked. This allows software developers to see the entire history of who changed what at any given time — and roll back from the current version to an earlier version if they need to. It also creates a single source of truth.
 <br>
 <br>
@@ -69,19 +69,19 @@ Understand and spark team collaboration to foster greater release build and rele
 <li>Support for distributed and non-linear workflows</li></p>
 
 
-<h4>While</h4>
+<h2>While</h2>
 <p><b>Github:</b> is a web-based Git repository. This hosting service has cloud-based storage. GitHub offers all distributed version control and source code management functionality of Git while adding its own features. It makes it easier to collaborate using Git. 
 
 Additionally, GitHub repositories are open to the public. Developers worldwide can interact and contribute to one another’s code, modify or improve it, making GitHub a networking site for web professionals. The process of interaction and contribution is also called social coding.</p>
 
-<h4>Git and GitHub Operate Completely Differently</h4>
+<h2>Git and GitHub Operate Completely Differently</h2>
 <p>The main Git vs GitHub difference is in their functionality. While they both provide source code management (SCM) and make merging and sharing code easier, this is pretty much where their similarities end. Think of Git as a single computer and GitHub as a network of multiple interconnected computers, all with the same end goal but a wildly different role for how to get there.
 
 At its core, Git is a free, open-source software distributed version control system (DVCS) designed to manage all source code history. It can keep a history of commits, can reverse changes, and lets developers share code. Each developer must have Git installed on his or her local device to collaborate. It is commonly referred to as one of the best DevOps tools to understand and use in the developer space, and it’s among the most widely used tools today. Companies like Amazon, Facebook, and Microsoft use it, to name a few.
 
 GitHub, on the other hand, is a web-based hosting service for Git repositories. It offers all of Git’s DVCS SCM and has some additional features. This includes collaboration functionality like project management, support ticket management, and bug tracking. With GitHub, developers can share their repositories, access other developers’ repositories, and store remote copies of repositories to serve as backups.</p>
 
-<h4>Both Git and GitHub Handle Commands Differently</h4>
+<h2>Both Git and GitHub Handle Commands Differently</h2>
 <p>Git developers themselves perform a command-line tool where code changes like commit and merge within the Git tool on their own local devices. By contrast, GitHub provides its cloud-based graphical interface where these tasks are performed. The interface also offers developers access control, collaboration features, and various task-management tools.
 
 When it comes to commands, Git focuses exclusively on SCM tasks like push and pull, commit, reset, fetch, and merge. GitHub, meanwhile, serves as a host for Git repository teams to store their code in a centralized location. While Git is a tool that’s used to manage multiple versions of source code edits that are then transferred to files in a Git repository, GitHub serves as a location for uploading copies of a Git repository.
@@ -89,31 +89,29 @@ When it comes to commands, Git focuses exclusively on SCM tasks like push and pu
 In a sense, then, there’s no comparison when it comes to Git vs. GitHub as far as their function. They complement rather than compete with each other in this space.</p>
 
 
-<h4>They’re Owned by Different Companies</h4>
+<h2>They’re Owned by Different Companies</h2>
 <p>Git has remained an open-source tool since it was first released in 2005. To this day, it is maintained by the Linux Foundation as part of the open-source ecosystem of tools and technologies (the Linux founder also created Git). By contrast, GitHub was launched as a company in 2008 and acquired by Microsoft in 2018.</p>
 
-<h4>List 3 other github alternatives</h4>
+<h2>List 3 other github alternatives</h2>
 <p><b>The 3 other github alternatives are:</b>
 <li>Bitbucket</li>
 <li>Sourceforge</li>
 <li>Launchpad</li>
 </p>
 
-<h4>Explain the difference between git fetch and git pull</h4>
+<h2>Explain the difference between git fetch and git pull</h2>
 <p>The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.
-<br>
-<br>
+
 To really understand the difference between pull and fetch, you must know how a Git installation is structured.
-<br>
-<br>
+
 On a user’s workstation, a Git installation includes the following items:
 <li>The local Git repository where the history of all commits across all branches are maintained.</li>
 <li>
 A working directory where a developer actively edits and updates files that Git tracks.</li>
 
-<h4>Benefits of the git pull command</h4>
-<p>If a developer finds out that there are new, updated files on a remote repository like GitHub, they will likely want to copy those changes from GitHub to both their local repository and into their working directory.<br>
-<br>
+<h2>Benefits of the git pull command</h2>
+<p>If a developer finds out that there are new, updated files on a remote repository like GitHub, they will likely want to copy those changes from GitHub to both their local repository and into their working directory.
+
 This is what the git pull command does. The git pull command updates both the user’s local Git repository and the files in their working directory.
 <br>
 
@@ -122,30 +120,23 @@ That provides the developer with two benefits:
 <li>The local Git repo is now in sync with the remote repo.</li>
 <li>The local filesystem has the latest, most up to date files.</li>
 </ol>
-<br>
-<br>
+
 The git pull command has one prerequisite: the user cannot be actively editing any tracked files in their local workspace that conflict with what’s on the remote server.
-<br>
-<br>
+
 If Git notices any conflicting files in the user’s workspace, it aborts the task of updating the user’s workspace and only updates the user’s local Git repo.</p>
 <br>
-<h4>Benefits of the git fetch command</h4>
+<h2>Benefits of the git fetch command</h2>
 <p>If you are actively working on files tracked by Git, but you still want to update your local repository with the latest changes from a remote repository, use the git fetch command.
-<br>
-<br>
+
 A git fetch updates your local repo with all of the latest changes from a remote repo but doesn’t make any changes to your local workspace.
-<br>
-<br>
+
 The benefit of the git fetch vs git pull is that a fetch enables you to continue editing files in your local working directory without having to merge your code with updates from the remote repo.
-<br>
-<br>
+
 With a git fetch, you can finish editing files locally, commit your files and then do a git merge to synchronize your updates with the fetched files. This brings you up to date with the updates the fetch pulled down from the remote machine.</p>
-<br>
-<br>
-<h4>Explain in simple terms git rebase and the command for it</h4>
+
+<h2>Explain in simple terms git rebase and the command for it</h2>
 <p>The git rebase command allows you to easily change a series of commits, modifying the history of your repository. You can reorder, edit, or squash commits together.
-<br>
-<br>
+
 Typically, you would use git rebase to:
 <li>Edit previous commit messages</li>
 <li>
@@ -153,89 +144,67 @@ Combine multiple commits into one</li>
 <li>
 Delete or revert commits that are no longer necessary
 </li>
-<br>
-<h4>Rebasing commits against a branch</h4>
+<h2>Rebasing commits against a branch</h2>
 <p>To rebase all the commits between another branch and the current branch state, you can enter the following command in your shell (either the command prompt for Windows, or the terminal for Mac and Linux):
 <br>
 <br>
 git rebase --interactive OTHER-BRANCH-NAME
 </p>
-<br>
-<br>
 
-<h4>Rebasing commits against a point in time</h4>
+<h2>Rebasing commits against a point in time</h2>
 <p>To rebase the last few commits in your current branch, you can enter the following command in your shell:
-<br>
-<br>
+
 git rebase --interactive HEAD~7
 </p>
 <br>
-<h4>Commands available while rebasing</h4>
+<h2>Commands available while rebasing</h2>
 <p>There are six commands available while rebasing:
-<br>
-<br>
+
 <li>
 <b>pick</b>
 pick simply means that the commit is included. Rearranging the order of the pick commands changes the order of the commits when the rebase is underway. If you choose not to include a commit, you should delete the entire line.
 </li>
-<br>
-<br>
+
 <li>
 <b>reword</b>
 The reword command is similar to pick, but after you use it, the rebase process will pause and give you a chance to alter the commit message. Any changes made by the commit are not affected.
 </li>
-<br>
-<br>
 <li>
 <b>edit</b>
 If you choose to edit a commit, you'll be given the chance to amend the commit, meaning that you can add or change the commit entirely. You can also make more commits before you continue the rebase. This allows you to split a large commit into smaller ones, or, remove erroneous changes made in a commit.
 </li>
-<br>
-<br>
 <li>
 <b>squash</b>
 This command lets you combine two or more commits into a single commit. A commit is squashed into the commit above it. Git gives you the chance to write a new commit message describing both changes.
 </li>
-<br>
-<br>
 <li>
 <b>fixup</b>
 This is similar to squash, but the commit to be merged has its message discarded. The commit is simply merged into the commit above it, and the earlier commit's message is used to describe both changes.
 </li>
-<br>
-<br>
 <li>
 <b>exec</b>
 This lets you run arbitrary shell commands against a commit.
 </li>
 </p>
 
-
-<br>
-
-<h4>Explain in simple terms git cherry-pick and the command for it </h4>
+<h2>Explain in simple terms git cherry-pick and the command for it </h2>
 <p>git cherry-pick in git means choosing a commit from one branch and applying it to another branch. This is in contrast with other ways such as merge and rebases which normally apply many commits into another branch.
 <br>
 <br>
 git cherry-pick is just like rebasing, an advanced concept and also a powerful command. It is mainly used if you don’t want to merge the whole branch and you want some of the commits.</p>
 <br>
-<h4>When to use cherry-pick?</h4>
+<h2>When to use cherry-pick?</h2>
 <p>Suppose a developer fails to recognize which branch he is currently on, and by mistake, he commits to another branch instead of committing to the main branch. Now to fix it, he has to first run git show, then save the commit, check out the main branch, apply a patch there, and commit with the same commit message. But all this can be done automatically by using just one command i.e. cherry-pick.</p>
 <br>
-<h4>The command for Cherry-pick is as follows:</h4> 
+<h2>The command for Cherry-pick is as follows:</h2> 
 <p>git cherry-pick<commit-hash>
-<br>
-<br>
+
 <strong>Commit hash:</strong> A commit hash is a unique identifier that is generated by Git. Each commit has its one commit hash.
-<br>
-<br>
 
 <b>Note:</b> While using this command make sure you are on the branch you want to apply the commit.</p>
-<h4>Some important Use Cases of Cherry-pick</h4>
+<h2>Some important Use Cases of Cherry-pick</h2>
 <p>
 The following are some common applications of Cherry-Pick:
-<br>
-<br>
 <ol>
 <li>
 If you by mistake make a commit in an incorrect branch, then using cherry-pick you can apply the required changes.</li>
@@ -248,9 +217,8 @@ At the point when a bug is found it is critical to convey a fix to end clients a
 Some of the time a component branch might go old and not get converged into the main branch and the request might get closed, but since git never loses those commits, it can be cherry-picked and it would be back.</li>
 <ol>
 </p>
-<br>
-<h4>Disadvantages of using Cherry Pick</h4>
+<h2>Disadvantages of using Cherry Pick</h2>
 <p>Cherry-pick should not be used always as it can cause copy commits and numerous situations where cherry-picking would work, conventional merges are liked all things considered. Also, in the situation where the commits from 2 or more branches update similar lines of code with various substances and git cherry-pick one commit to the other branch, it prompts conflict as well.</p>
 <br>
-<h4>Conclusion</h4>
+<h2>Conclusion</h2>
 <p>Git’s cherry-pick command is a powerful tool for selectively applying specific commits between branches. It’s great for fixing mistakes and sharing code, but overusing it can lead to issues, especially when commits touch the same code lines. So, use it wisely to maintain a clean and efficient code history.</p>
