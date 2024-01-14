@@ -30,16 +30,16 @@ Version control software facilitates coordination, sharing, and collaboration ac
 <p>The two most popular types of version or revision control systems are centralized and distributed. Centralized version control systems store all the files in a central repository, while distributed version control systems store files across multiple repositories. Other less common types include lock-based and optimistic.
 <br>
 <ol>
-<li><b> Distributed<b> 
+<li><b> Distributed<b> <br>
 A distributed version control system (DVCS) allows users to access a repository from multiple locations. DVCSs are often used by developers who need to work on projects from multiple computers or who need to collaborate with other developers remotely.</li>
 <br>
-<li><b>Centralized</b>
+<li><b>Centralized</b><br>
 A centralized version control system (CVCS) is a type of VCS where all users are working with the same central repository. This central repository can be located on a server or on a developer's local machine. Centralized version control systems are typically used in software development projects where a team of developers needs to share code and track changes.</li>
 <br>
-<li><b> Lock-based</b> 
+<li><b> Lock-based</b> <br>
 A lock-based version control system uses file locking to manage concurrent access to files and resources. File locking prevents two or more users from making conflicting changes to the same file or resource.</li>
 <br>
-<li><b>Optimistic</b> 
+<li><b>Optimistic</b> <br>
 In an optimistic version control system, every user has their own private workspace. When they want to share their changes with the rest of the team, they submit a request to the server. The server then looks at all the changes and determines which ones can be safely merged together.</li></ol></p>
 
 <h3>Benefits of version control</h3>
@@ -161,28 +161,28 @@ git rebase --interactive HEAD~7
 <p>There are six commands available while rebasing:
 
 <li>
-<b>pick</b>
+<b>pick</b><br>
 pick simply means that the commit is included. Rearranging the order of the pick commands changes the order of the commits when the rebase is underway. If you choose not to include a commit, you should delete the entire line.
 </li>
 
 <li>
-<b>reword</b>
+<b>reword</b><br>
 The reword command is similar to pick, but after you use it, the rebase process will pause and give you a chance to alter the commit message. Any changes made by the commit are not affected.
 </li>
 <li>
-<b>edit</b>
+<b>edit</b><br>
 If you choose to edit a commit, you'll be given the chance to amend the commit, meaning that you can add or change the commit entirely. You can also make more commits before you continue the rebase. This allows you to split a large commit into smaller ones, or, remove erroneous changes made in a commit.
 </li>
 <li>
-<b>squash</b>
+<b>squash</b><br>
 This command lets you combine two or more commits into a single commit. A commit is squashed into the commit above it. Git gives you the chance to write a new commit message describing both changes.
 </li>
 <li>
-<b>fixup</b>
+<b>fixup</b><br>
 This is similar to squash, but the commit to be merged has its message discarded. The commit is simply merged into the commit above it, and the earlier commit's message is used to describe both changes.
 </li>
 <li>
-<b>exec</b>
+<b>exec</b><br>
 This lets you run arbitrary shell commands against a commit.
 </li>
 </p>
